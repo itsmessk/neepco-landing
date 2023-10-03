@@ -15,9 +15,10 @@
     .logo {
       display: block;
     }
+
     .logoo {
-        display: none;
-      }
+      display: none;
+    }
 
     /* Media query for mobile devices (adjust the max-width as needed) */
     @media (max-width: 768px) {
@@ -26,6 +27,7 @@
       .logo {
         display: none;
       }
+
       .logoo {
         display: block;
       }
@@ -36,15 +38,28 @@
         background: url('l.png') no-repeat center;
         background-size: contain;
         width: 100%;
-        
+
         /* Adjust the height as needed */
-        
+
         /* Hide the text */
       }
-      .ffff{
+
+      .ffff {
         padding-top: 5px;
       }
     }
+    
+
+.hero-media img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
   </style>
 </head>
 
@@ -60,7 +75,7 @@
                 <img class="logo" src="logo.png" alt="NEPCO Logo" width="450" height="150" />
               </a>
             </h1>
-            
+
           </div>
           <ul class="header-links list-reset m-0 ffff" style="padding-top: 8px">
             <li>
@@ -84,13 +99,17 @@
             </p>
             <p class="hero-cta is-revealing">
               <a class="button button-secondary button-shadow" href="#">Login</a>
+
             </p>
           </div>
+          <div class="hero-media">
+            <img src="we.png" alt="NEPCO Logo" width="250" height="250" />
+          </div>
         </div>
-      </section><hr>
-      
-      <br /><br /><br /><br /><br /><br /><br /><br />
+      </section>
+  
 
+   
       <section class="features section text-center">
         <div class="container">
           <div class="features-inner section-inner has-top-divider">

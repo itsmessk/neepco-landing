@@ -1090,9 +1090,9 @@ label {
 }
 .hero-media {
   position: relative;
-  height: 200px;
+  height: 250px;
   margin-top: 40px;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 4px 4px 0 0;
 }
 .hero-media::before {
@@ -1102,7 +1102,7 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  box-shadow: 0 16px 48px #e3e7eb;
+  /* box-shadow: 0 16px 48px #e3e7eb; */
   mix-blend-mode: multiply;
 }
 @supports (-ms-ime-align: auto) {
@@ -1120,8 +1120,8 @@ label {
     padding-right: 72px;
   }
   .hero-media {
-    margin-top: 64px;
-    height: 400px;
+    margin-top: 30px;
+    height: 250px;
   }
 }
 .clients .section-inner {
