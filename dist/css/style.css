@@ -1091,7 +1091,7 @@ label {
 .hero-media {
   position: relative;
   height: 250px;
-  margin-top: 40px;
+  margin-top: 30px;
   /* background: #fff; */
   border-radius: 4px 4px 0 0;
 }
@@ -1120,7 +1120,7 @@ label {
     padding-right: 72px;
   }
   .hero-media {
-    margin-top: 30px;
+    margin-top: 10px;
     height: 250px;
   }
 }
